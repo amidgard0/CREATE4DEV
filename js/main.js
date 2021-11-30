@@ -37,6 +37,12 @@ $(function () {
     }, 1000);
     e.preventDefault();
   });
+  $('.btn__clicked').on('click', function (e) {
+    $('html,body').stop().animate({
+      scrollTop: $('#our__contact').offset().top
+    }, 1000);
+    e.preventDefault();
+  });
 });
 var close = document.querySelector('.close'),
     menuContent = document.querySelector('.menu__mobile'),
