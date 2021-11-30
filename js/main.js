@@ -24,6 +24,7 @@ function tabs(tabsItems, tabsContentItems) {
 
 tabs('.about-us__item-tabs--1', '.about-us__item-tabs-content-item--1');
 tabs('.about-us__item-tabs--2', '.about-us__item-tabs-content-item--2');
+var menu__link = document.querySelectorAll('.menu___link');
 $(function () {
   $('.our__clietns').on('click', function (e) {
     $('html,body').stop().animate({
@@ -55,5 +56,13 @@ openMenu.addEventListener('click', function () {
 close.addEventListener('click', function () {
   menuContent.classList.remove('menu__mobile-active');
   body.classList.remove('overFlow');
+});
+menu__link.forEach(function (item) {
+  item.addEventListener('click', function () {
+    var body = document.body;
+    body.classList.remove('overFlow');
+    menuContent.classList.remove('menu__mobile-active');
+    body.classList.remove('overFlow');
+  });
 });
 //# sourceMappingURL=main.js.map
