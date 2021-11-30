@@ -737,7 +737,7 @@ a:hover {
   }
 
   .contacts__buttons-item .btn {
-    width: 125px;
+    width: 163px;
   }
 
   .contacts__arrows {
@@ -766,6 +766,11 @@ a:hover {
   .footer__wrapper {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+@media(max-width: 330px) {
+  .contacts__buttons-item .btn {
+    width: 125px;
   }
 }
 /*# sourceMappingURL=main.css.map */
