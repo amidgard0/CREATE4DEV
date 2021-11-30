@@ -36,7 +36,9 @@ html, html a {
 *::after {
   box-sizing: inherit;
 }
-
+button{
+  background:inherit;
+}
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
