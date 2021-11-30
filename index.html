@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/sprite.svg" type="image/x-icon">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#111111">
-  <title>New site</title>
+  <title>Главная страница</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -18,6 +18,7 @@
   />
   <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -45,19 +46,19 @@
 
      <ul class="header__menu">
         <li class="header__menu-link">
-          <a href="#">Главная</a>
+          <a href="index.html">Главная</a>
         </li>
         <li class="header__menu-link">
-          <a href="#">О нас</a>
+          <a href="about.html">О нас</a>
         </li>
         <li class="header__menu-link">
-          <a href="#">услуги</a>
+          <a href="service.html">услуги</a>
         </li>
-        <li class="header__menu-link">
-          <a href="#">наши клиенты</a>
+        <li class="header__menu-link our__clietns">
+          <a href="index.html">наши клиенты</a>
         </li>
-        <li class="header__menu-link">
-          <a href="#">контакты</a>
+        <li class="header__menu-link our__contact">
+          <a href="index.html">контакты</a>
         </li>
      </ul>
 
@@ -67,9 +68,35 @@
          <div class="burger__menu-line"></div>
          <div class="burger__menu-line"></div>
        </div>
+     
      </div>
      
+       
+      <ul class="menu__mobile">
+        <div class="close">
+          ×
+          
+        </div>
+        <li>
+          Главная
+        </li>
+        <li>
+          О нас
+        </li>
+        <li>
+          Услуги
+        </li>
+        <li>
+          Наши клиенты
+        </li>
+        <li>
+          Контакты
+        </li>
+      </ul>
+    
+     
    </div>
+ 
   </div>
 </header>
 
@@ -77,10 +104,10 @@
         <div class="container">
           <div class="main-screen__wrapper">
             <div class="main-screen__block">
-              <div class="main-screen__block-logo">
+              <div class="main-screen__block-logo" data-aos="fade-up-right">
                 SPACE<span>4</span>dev
               </div>
-              <div class="main-screen__block-info">
+              <div class="main-screen__block-info" data-aos="fade-down-right">
                 <div class="main-screen__left">
                   <div class="main-screen__left-text">
                     В знаниях <span>сила</span>
@@ -140,7 +167,7 @@
       </section>
 
 
-      <section class="clients">
+      <section class="clients " id="our__clientss" data-aos="zoom-in" data-aos-once='true'>
         <div class="container">
           <div class="clients__wrapper">
             <div class="page__title">
@@ -160,27 +187,49 @@
                 <img src="https://thumb.tildacdn.com/tild6538-3937-4237-a233-326465656263/-/resize/279x/-/format/webp/photo.png" alt="">
               </div>
               <div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild6335-3235-4733-a532-653732306439/-/resize/178x/-/format/webp/33333.png" alt="">
+                <img src="img/tild6635-3665-4135-a332-616163636136__image_9.png" alt="">
               </div>
               <div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild3137-3262-4861-b466-666134636237/-/resize/281x/-/format/webp/5.png" alt="">
+                <img src="img/tild6436-6661-4037-b731-356133366533__image_10.png" alt="">
               </div>
               <div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild3539-3832-4733-a238-666362623465/-/resize/259x/-/format/webp/photo.png" alt="">
+                <img src="img/tild6136-6233-4439-a330-316330633234__image_11.png" alt="">
               </div>
               <div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild6538-3937-4237-a233-326465656263/-/resize/279x/-/format/webp/photo.png" alt="">
+                <img src="img/tild6335-6561-4733-a566-623139306562__logo-removebg-previe.png" alt="">
               </div><div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild6335-3235-4733-a532-653732306439/-/resize/178x/-/format/webp/33333.png" alt="">
+                <img src="img/tild6433-6431-4133-b335-336132616266__around_group-removeb_cut-photo.ru.png" alt="">
               </div>
               <div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild3137-3262-4861-b466-666134636237/-/resize/281x/-/format/webp/5.png" alt="">
+                <img src="img/tild6536-3938-4933-a263-663336346462__unnamed-removebg-pre_cut-photo.ru.png" alt="">
               </div>
               <div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild3539-3832-4733-a238-666362623465/-/resize/259x/-/format/webp/photo.png" alt="">
+                <img src="img/tild6530-3935-4364-b132-666133353132__bd804e23fdf54b762439.png" alt="">
               </div>
               <div class="clients__block-item">
-                <img src="https://thumb.tildacdn.com/tild6538-3937-4237-a233-326465656263/-/resize/279x/-/format/webp/photo.png" alt="">
+                <img src="img/tild6634-3564-4163-a336-333438346236__image_12.png" alt="">
+              </div>
+              
+              <div class="clients__block-item">
+                <img src="img/tild3932-3032-4431-b161-646630333238___-removebg-preview.png" alt="">
+              </div>
+              <div class="clients__block-item">
+                <img src="img/tild6332-3963-4634-b331-353139336130__image_13.png" alt="">
+              </div>
+              <div class="clients__block-item">
+                <img src="img/tild3539-6631-4439-a263-363561616635__image_14.png" alt="">
+              </div>
+              <div class="clients__block-item">
+                <img src="img/tild3139-3161-4237-b436-396132316531__image_15.png" alt="">
+              </div>
+              <div class="clients__block-item">
+                <img src="img/tild6231-3630-4561-a462-656365303134_____1_-removebg-previ.png" alt="">
+              </div>
+              <div class="clients__block-item">
+                <img src="https://im0-tub-by.yandex.net/i?id=e70c05cf8080ef7d5a394aaa693c5e0d-sr&n=13" alt="">
+              </div>
+              <div class="clients__block-item">
+                <img src="img/tild3637-3332-4165-a565-623436633031__image_17.png" alt="">
               </div>
             </div>
           </div>
@@ -188,12 +237,12 @@
       </section>
 
 
-      <section class="contacts">
+      <section class="contacts" id='our__contact' >
         <div class="container">
           <div class="page__title">
             Контакты
           </div>
-          <div class="contacts__wrapper">
+          <div class="contacts__wrapper" data-aos="flip-up">
            
 
 
@@ -306,7 +355,10 @@
   
   <script src="js/vendor.js"></script>
   <script src="js/main.js"></script>
-  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
