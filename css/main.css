@@ -25,7 +25,8 @@ html {
   box-sizing: border-box;
 }
 
-html, html a {
+html,
+html a {
   /*text-shadow: 1px 1px 1px rgba(0,0,0,0.004);*/
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -441,9 +442,13 @@ a:hover {
 .footer__item-link {
   color: #303030;
   font-size: 20px;
-  opacity: 0.8;
+
   line-height: 1.1;
   font-weight: 400;
+}
+.phone__link {
+  color: #9789aa;
+  opacity: 1 !important;
 }
 
 .span-yellow {
@@ -831,14 +836,6 @@ a:hover {
   .footer__wrapper {
     flex-direction: column;
     align-items: flex-start;
-  }
-  .contacts__buttons-item .btn{
-  width:162px;
-  }
-}
-@media (max-width: 340px){
-  .contacts__buttons-item .btn{
-  width:125px;
   }
 }
 /*# sourceMappingURL=main.css.map */
