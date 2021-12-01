@@ -441,7 +441,7 @@ a:hover {
 
 .footer__item-link {
   color: #303030;
-  font-size: 20px;
+  font-size: 18px;
 
   line-height: 1.1;
   font-weight: 400;
@@ -728,6 +728,9 @@ a:hover {
   }
 }
 @media (max-width: 680px) {
+  .footer__item-link {
+    font-size: 14px;
+  }
   .header__wrapper {
     justify-content: flex-end;
   }
